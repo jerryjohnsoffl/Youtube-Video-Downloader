@@ -15,7 +15,7 @@ def download_video(url, save_path):
 def open_file_dialog():
 	folder = filedialog.askdirectory()
 	if folder:
-		print("Selected folder: {folder}")
+		print("Selected folder: " + folder)
 
 	return folder
 
