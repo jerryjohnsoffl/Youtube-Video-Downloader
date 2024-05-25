@@ -12,7 +12,7 @@ def download_video(url, save_path):
 	except Exception as e:
 		print(e)
 
-def open_file_dialog:
+def open_file_dialog():
 	folder = filedialog.askdirectory()
 	if folder:
 		print("Selected folder: {folder}")
